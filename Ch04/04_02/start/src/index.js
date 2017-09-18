@@ -1,11 +1,11 @@
 import expect from 'expect'
 import storeFactory from './store'
 
-import { 
+import {
 	addError,
-	clearError, 
-	changeSuggestions, 
-	clearSuggestions 
+	clearError,
+	changeSuggestions,
+	clearSuggestions
 } from './actions'
 
 const store = storeFactory()
@@ -74,7 +74,7 @@ console.log(`
 store.dispatch(
     changeSuggestions(['One', 'Two', 'Three'])
 )
-      
+
 expect(store.getState().resortNames.suggestions)
     .toEqual(['One', 'Two', 'Three'])
 
@@ -82,7 +82,7 @@ console.log(`
 
     changeSuggestions() Action Creator Works!!!
 
-`)   
+`)
 
 
 
@@ -96,20 +96,16 @@ console.log(`
 
 //
 // Challenge: build clearSuggestions() Action Creator
-// 
-   
+//
 
-    
+
+
 store.dispatch(clearSuggestions())
 
 expect(store.getState().resortNames.suggestions).toEqual([])
-        
+
 console.log(`
 
     clearSuggestions() Action Creator Works!!!
 
-`)  
-
-
-
-
+`)

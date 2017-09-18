@@ -39,7 +39,7 @@ state = appReducer(state, {
 })
 
 console.log(`
-  nextstate state
+  next state
   ===============
 
 
