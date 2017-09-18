@@ -12,7 +12,8 @@
     "babel-cli": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
-    "redux": "^3.6.0"
+    "prettyjson": "^1.2.1",
+    "redux": "^3.7.2"
   },
   "devDependencies": {
     "babel-preset-stage-0": "^6.16.0",
